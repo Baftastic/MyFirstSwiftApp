@@ -36,7 +36,7 @@ struct QuizView: View {
             .buttonStyle(.bordered)
             .controlSize(.large)
             Button("Forráskód megtekintése") {
-                guard let url = URL(string: "https://www.youtube.com/watch?v=dQw4w9WgXcQ") else { return }
+                guard let url = URL(string: "https://github.com/ServoAtya/MyFirstSwiftApp/tree/main/MyFirstApp") else { return }
                 UIApplication.shared.open(url)
             }
             .padding(0.0)
